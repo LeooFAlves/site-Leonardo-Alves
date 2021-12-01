@@ -321,6 +321,7 @@ nav.show div.icon-close {
 }
 
 #home .text p {
+  font-size: 1.2rem;
   margin-bottom: 2rem;
   max-width: 100%;
 }
@@ -361,6 +362,7 @@ nav.show div.icon-close {
 }
 
 #about .text {
+  font-size: 1.2rem;
   margin-left: 0.3rem;
   margin-right: 1.5rem;
 }
@@ -369,6 +371,10 @@ nav.show div.icon-close {
 #projects .container {
   text-align: justify;
   gap: 0rem;
+}
+
+#projects .text {
+  font-size: 1.2rem;
 }
 
 .cards.grid {
@@ -383,9 +389,13 @@ nav.show div.icon-close {
   text-align: center;
 }
 
+.card img {
+  margin-top: 1.5rem;
+}
+
 .card i {
   display: block;
-  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
   font-size: 8rem;
   color: var(--base-color);
 }
@@ -395,12 +405,17 @@ nav.show div.icon-close {
   margin-bottom: 0.75rem;
 }
 
+.card p {
+  text-align: justify;
+}
+
 /* --CONTACT-- */
 #contact .grid {
   gap: 4rem;
 }
 
 #contact .text p {
+  font-size: 1.2rem;
   margin-bottom: 2rem;
 }
 
