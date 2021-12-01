@@ -70,6 +70,19 @@ body {
   transition: background 0.3s;
 }
 
+.button-2 {
+  margin-top: 50px;
+  background: var(--base-color);
+  color: var(--text-color-light);
+  height: 3.5rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 2.5rem;
+  border-radius: 0.25rem;
+  font: 500 1rem var(--body-font), sans-serif;
+  transition: background 0.3s;
+}
+
 button:hover {
   background: var(--base-color-alt);
 }
@@ -562,7 +575,6 @@ footer .social a:hover {
   footer .container {
     grid-auto-flow: column;
     align-items: center;
-    justify-content: space-between;
   }
 
   footer .logo {
