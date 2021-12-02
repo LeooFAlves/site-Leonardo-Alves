@@ -117,7 +117,8 @@ button:hover {
 }
 
 .section {
-  padding: calc(5rem + var(--header-heigt)) 0;
+  padding: calc(5rem + var(--header-heigt)) 0 0 0;
+  margin-bottom: 1rem;
 }
 
 .section .title {
@@ -133,6 +134,27 @@ button:hover {
 }
 
 .section header strong {
+  color: var(--base-color);
+}
+
+.section-2 {
+  padding: 5rem 0;
+  margin-bottom: 1rem;
+}
+
+.section-2 .title {
+  margin-bottom: 1rem;
+}
+
+.section-2 .subititle {
+  font-size: var(--subtitle-font-size);
+}
+
+.section-2 header {
+  margin-bottom: 4rem;
+}
+
+.section-2 header strong {
   color: var(--base-color);
 }
 
@@ -324,6 +346,80 @@ nav.show div.icon-close {
   font-size: 1.2rem;
   margin-bottom: 2rem;
   max-width: 100%;
+  text-align: justify;
+}
+
+/*===== KNOWLEDGES ======*/
+#knowledges .container {
+  text-align: justify;
+  gap: 0rem;
+}
+
+#knowledges .text {
+  font-size: 1.2rem;
+}
+
+#knowledges .cards.grid {
+  gap: 1.5rem;
+}
+
+#knowledges .card {
+  padding: 3.625rem 2rem;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+  border-bottom: 0.25rem solid var(--base-color);
+  border-radius: 0.25rem 0.25rem 0 0;
+  text-align: center;
+}
+
+#knowledges .card img {
+  margin-top: 1.5rem;
+}
+
+#knowledges .card i {
+  display: block;
+  margin-top: 1.5rem;
+  font-size: 8rem;
+  color: var(--base-color);
+}
+
+#knowledges .card .title {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+#knowledges .card p {
+  text-align: justify;
+}
+
+/* --CONTACT-- */
+#contact .grid {
+  gap: 4rem;
+}
+
+#contact .text p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+#contact .button i,
+#contact ul li i {
+  font-size: 1.5rem;
+  margin-right: 0.625rem;
+  gap: 1rem;
+}
+
+#contact ul.grid {
+  gap: 1rem;
+}
+
+#contact ul li {
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+#contact ul li i {
+  color: var(--base-color);
 }
 
 /*===== ABOUT ===========*/
@@ -377,11 +473,11 @@ nav.show div.icon-close {
   font-size: 1.2rem;
 }
 
-.cards.grid {
+#projects .cards.grid {
   gap: 1.5rem;
 }
 
-.card {
+#projects .card {
   padding: 3.625rem 2rem;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
   border-bottom: 0.25rem solid var(--base-color);
@@ -389,23 +485,23 @@ nav.show div.icon-close {
   text-align: center;
 }
 
-.card img {
+#projects .card img {
   margin-top: 1.5rem;
 }
 
-.card i {
+#projects .card i {
   display: block;
   margin-top: 1.5rem;
   font-size: 8rem;
   color: var(--base-color);
 }
 
-.card .title {
+#projects .card .title {
   font-size: 1.5rem;
   margin-bottom: 0.75rem;
 }
 
-.card p {
+#projects .card p {
   text-align: justify;
 }
 
@@ -469,6 +565,10 @@ footer .social {
   width: fit-content;
 }
 
+footer .grid {
+  grid-auto-flow: column;
+}
+
 footer .social a {
   transition: 0.3s;
   display: inline-block;
@@ -489,7 +589,7 @@ footer .social a:hover {
   }
 
   .section {
-    padding: 10rem 0;
+    padding: 10rem 0 0 0;
   }
 
   .section header,
@@ -588,9 +688,13 @@ footer .social a:hover {
   }
 
   footer .container {
-    grid-auto-flow: column;
     align-items: center;
   }
+
+  footer .social {
+  grid-auto-flow: column;
+  width: fit-content;
+}
 
   footer .logo {
     font-size: 2.25rem;
@@ -609,4 +713,3 @@ footer .social a:hover {
 /* --medium devices: 767 >- */
 @media (min-width: 767px) {
 }
-
