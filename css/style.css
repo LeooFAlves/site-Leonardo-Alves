@@ -461,8 +461,14 @@ nav.show div.icon-close {
 #projects .card i {
   display: block;
   margin-top: 1.5rem;
-  font-size: 8rem;
+  font-size: 2rem;
   color: var(--base-color);
+}
+
+#projects .card a {
+  margin-left: 0.5rem;
+  font-size: 1.2rem;
+  font: 400 1rem var(--body-font);
 }
 
 #projects .card .title {
