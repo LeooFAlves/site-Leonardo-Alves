@@ -17,7 +17,7 @@ for (const link of links) {
   })
 }
 
-/*Menu ativo conforme a seção visível na página*/
+/*MENU ATIVO CONFORME A SEÇÃO VISÍVEL*/
 const sections = document.querySelectorAll('main section[id]')
 function activateMenuAtCurrentSection() {
   const checkpoint = window.pageYOffset + (window.innerHeight / 8) * 4
@@ -41,7 +41,7 @@ function activateMenuAtCurrentSection() {
   }
 }
 
-/*When Sroll*/
+/*QUANDO DAR SCROLL*/
 window.addEventListener('scroll', function () {
   changeHeaderWhenScroll()
   backToTop()
