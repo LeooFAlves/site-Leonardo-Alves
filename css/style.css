@@ -391,37 +391,6 @@ nav.show div.icon-close {
   text-align: justify;
 }
 
-/* --CONTACT-- */
-#contact .grid {
-  gap: 4rem;
-}
-
-#contact .text p {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-}
-
-#contact .button i,
-#contact ul li i {
-  font-size: 1.5rem;
-  margin-right: 0.625rem;
-  gap: 1rem;
-}
-
-#contact ul.grid {
-  gap: 1rem;
-}
-
-#contact ul li {
-  gap: 1rem;
-  display: flex;
-  align-items: center;
-}
-
-#contact ul li i {
-  color: var(--base-color);
-}
-
 /*===== ABOUT ===========*/
 #about {
   background: white;
@@ -534,6 +503,41 @@ nav.show div.icon-close {
 
 #contact ul li i {
   color: var(--base-color);
+}
+
+/* --FORMULÁRIO-- */
+#formulario form {
+  width: 800px;
+  padding: 30px;
+  border: 1px solid var(--base-color);
+}
+
+#formulario label {
+  padding-left: 10px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  display: block;
+  width: 100%;
+}
+
+#formulario textarea {
+  line-height: 20px;
+  padding: 10px;
+  height: 90px;
+  resize: none;
+}
+
+#formulario input[type=text],
+input[type=email],
+textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 15px;
+  border: 1px solid var(--base-color);
+  outline: none;
 }
 
 /* --FOOTER-- */
