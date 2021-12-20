@@ -521,7 +521,7 @@ nav.show div.icon-close {
 
 #formulario label {
   padding-left: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
   font-size: 1.1rem;
   display: block;
   width: 100%;
@@ -545,6 +545,10 @@ textarea {
   border-radius: 15px;
   border: 1px solid var(--base-color);
   outline: none;
+}
+
+#formulario .erro {
+  border-color: #f00;
 }
 
 /* --FOOTER-- */

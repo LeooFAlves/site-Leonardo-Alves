@@ -1,4 +1,4 @@
-/* ABRE E FEHCA O MENU QUANDO CLICAR NO ÍCONE: HAMBURGUER E X */
+/* ABRE E FECHA O MENU QUANDO CLICAR NO ÍCONE: HAMBURGUER E X */
 const nav = document.querySelector('#header nav')
 const toggle = document.querySelectorAll('nav .toggle')
 
@@ -47,3 +47,5 @@ window.addEventListener('scroll', function () {
   backToTop()
   activateMenuAtCurrentSection()
 })
+
+/*FORMULÁRIO DE CONTATO*/

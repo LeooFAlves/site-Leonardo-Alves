@@ -70,29 +70,33 @@
       <!--FORMULÁRIO DE CONTATO
         <section class="section-2" id="formulario">
           <div class="container grid">
+            <div class="mensagem"></div>
             <div class="text"></div>
             <div class="h2 title">Ou preencha o formulário abaixo!</div>
             <p>Complete os campos que eu entro em contato com você!</p>
-            <div class="formulario" id="form">
-              <form method="post" action="malito:leoalves150715@gmail.com">
+              <form>
                 <div>
                   <label for="nome" class="text">Nome:</label>
-                  <input type="text" name="nome" id="nome" placeholder="Digite o seu nome">
+                  <input type="text" placeholder="Digite o seu nome" class="obrigatorio" name="nome">
                 </div>
                 <div>
                   <label for="email" class="text">E-mail:</label>
-                  <input type="email" name="email" id="email" placeholder="Digite o seu e-mail">
+                  <input type="text" placeholder="Digite o seu e-mail" class="obrigatorio email" name="email">
                 </div>
                 <div>
-                  <label for="Mensagem" class="text">Mensagem:</label>
-                  <textarea name="mensagem" id="mensagem" rows="10" cols="50" placeholder="Digite a sua mensagem"></textarea>
+                  <label for="telefone" class="text">Telefone:</label>
+                  <input type="text" placeholder="Digite o seu telefone" name="telefone">
+                </div>
+                <div>
+                  <label for="mensagem" class="text">Mensagem:</label>
+                  <textarea name="mensagem" rows="10" cols="50" placeholder="Digite a sua mensagem" class="obrigatorio"></textarea>
                 </div>
                 <div>
                   <input class="button" type="submit" value="Enviar">
                 </div>
               </form>
+              <div id="resultado"></div>
             </div>
-          </div>
         </section>-->
 
       </main>
@@ -122,7 +126,6 @@
 
     <!--MAIN.JS-->
     <script src="main.js"></script>
-    <script src="./Paginas/Formulario/script.js"></script>
 
   </body>
 </html>
