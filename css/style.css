@@ -512,45 +512,6 @@ nav.show div.icon-close {
   color: var(--base-color);
 }
 
-/* --FORMULÁRIO-- */
-#formulario form {
-  width: 800px;
-  padding: 30px;
-  border: 1px solid var(--base-color);
-}
-
-#formulario label {
-  padding-left: 10px;
-  margin-bottom: 1rem;
-  font-size: 1.1rem;
-  display: block;
-  width: 100%;
-}
-
-#formulario textarea {
-  line-height: 20px;
-  padding: 10px;
-  height: 90px;
-  resize: none;
-}
-
-#formulario input[type=text],
-input[type=email],
-textarea {
-  width: 100%;
-  margin-bottom: 20px;
-  padding-left: 10px;
-  height: 30px;
-  line-height: 30px;
-  border-radius: 15px;
-  border: 1px solid var(--base-color);
-  outline: none;
-}
-
-#formulario .erro {
-  border-color: #f00;
-}
-
 /* --FOOTER-- */
 footer {
   background: var(--base-color);
@@ -565,6 +526,12 @@ footer.section {
 footer .logo {
   display: inline-block;
   margin-bottom: 1.5rem;
+}
+
+footer p {
+  width: 100%;
+  display: grid;
+  
 }
 
 footer .brand p {

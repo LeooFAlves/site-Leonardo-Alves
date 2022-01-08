@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?fi6phb');
-  src:  url('fonts/icomoon.eot?fi6phb#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?fi6phb') format('truetype'),
-    url('fonts/icomoon.woff?fi6phb') format('woff'),
-    url('fonts/icomoon.svg?fi6phb#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?9dm6ho');
+  src:  url('fonts/icomoon.eot?9dm6ho#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?9dm6ho') format('truetype'),
+    url('fonts/icomoon.woff?9dm6ho') format('woff'),
+    url('fonts/icomoon.svg?9dm6ho#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,30 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-bootstrap:before {
+  content: "\e913";
+}
+.icon-display:before {
+  content: "\e956";
+}
+.icon-mobile:before {
+  content: "\e958";
+}
+.icon-web:before {
+  content: "\e9ca";
+}
+.icon-github-2:before {
+  content: "\eab0";
+}
+.icon-html:before {
+  content: "\eae4";
+}
+.icon-css:before {
+  content: "\eae6";
+}
+.icon-git:before {
+  content: "\eae7";
+}
 .icon-javascript:before {
   content: "\e901";
 }
@@ -60,25 +84,4 @@
 }
 .icon-whatsapp:before {
   content: "\e90a";
-}
-.icon-display:before {
-  content: "\e956";
-}
-.icon-mobile:before {
-  content: "\e958";
-}
-.icon-web:before {
-  content: "\e9ca";
-}
-.icon-github-2:before {
-  content: "\eab0";
-}
-.icon-html:before {
-  content: "\eae4";
-}
-.icon-css:before {
-  content: "\eae6";
-}
-.icon-git:before {
-  content: "\eae7";
 }
