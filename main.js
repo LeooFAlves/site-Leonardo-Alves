@@ -47,3 +47,8 @@ window.addEventListener('scroll', function () {
   backToTop()
   activateMenuAtCurrentSection()
 })
+
+/*ANIMAÇÕES CARDS CONHECIMETOS*/
+const duracao = 1000
+
+$('#knowledges').fadeIn(duracao)
